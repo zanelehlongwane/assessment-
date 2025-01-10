@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Declaration of the XML version and encoding -->
+
+<module type="JAVA_MODULE" version="4">
+  <!-- Specifies the type and version of the module. In this case, it's a Java module of version 4. -->
+
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <!-- Component for managing the module's roots, such as source and output directories. -->
+
+    <exclude-output />
+    <!-- Exclude the output directory from the module content. This prevents compiled classes and other build outputs from being included in the module's source. -->
+
+    <content url="file://$MODULE_DIR$">
+      <!-- Defines the root content directory for the module. $MODULE_DIR$ is a placeholder for the module's root directory. -->
+
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="com.enviro.assessment.grad001.ZaneleHlongwane" />
+      <!-- Specifies the source folder for the module. The source folder is the root directory where the source code resides.
+           isTestSource="false" indicates that this folder is not used for test sources.
+           packagePrefix defines the package structure for the source files. -->
+    </content>
+
+    <orderEntry type="inheritedJdk" />
+    <!-- Inherit the JDK settings from the project. This means the module will use the JDK specified at the project level. -->
+
+    <orderEntry type="sourceFolder" forTests="false" />
+    <!-- Adds the source folder to the module's classpath. forTests="false" indicates that this is not a test source folder. -->
+  </component>
+</module>
